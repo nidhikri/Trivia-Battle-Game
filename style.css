@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #8adae6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#instructions {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #222;
+    text-align: center;
+    max-width: 700px;
+}
+
+#screen1, #screen2,#screen3,#screen4,#screen5 {
+    width: 90%;
+    max-width: 700px;
+    background-color: #f6adf677;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+h1,h2,h3 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+input {
+    width: 90%;
+    max-width: 320px;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 16px;
+    margin: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #c05028;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:disabled {
+    background-color: #8db2f2;
+    cursor: not-allowed;
+}
+
+.category {
+    background-color: #e5e7eb;
+    color: #111;
+}
+
+.category:hover {
+    background-color: #f0f05c;
+}
+
+#gameInfo {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#scoreBoard {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+#questionText {
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+#options {
+    margin-top: 10px;
+}
+
+#options button {
+    display: block;
+    width: 100%;
+    margin: 6px 0;
+    text-align: left;
+}
+
+#errorMsg {
+    color: red;
+    margin-top: 10px;
+}
+
+#finalScore,
+#winnerText {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#selectedCategoryText {
+    margin: 10px 0;
+    font-weight: bold;
+    color: #5503fa;
+    border: 1px solid #111;
+    background-color: #e9c892;
+    padding: 8px;
+    border-radius: 4px;
+}
